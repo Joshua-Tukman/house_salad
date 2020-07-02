@@ -19,6 +19,8 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'pry'
   gem 'awesome_print'
+  gem 'faraday'
+  gem 'figaro'
 end
 
 group :test do
